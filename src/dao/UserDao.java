@@ -4,8 +4,8 @@ public class UserDao {
     static HashMap<String, String> users = new HashMap<>();//内存数据库
     static{
         users.put("admin","123456");
-        users.put("tom","123");
-        users.put("cat",null);
+        users.put("zll","632938");
+        users.put("paul",null);
     }
     public static boolean register(String name, String pass) {
         if (users.containsKey(name) || name.trim().isEmpty()) {
@@ -43,14 +43,14 @@ public class UserDao {
 
     public static void main(String[] args) {
 
-        register("tom", "123456");
-        register("cat", "666666");
-        System.out.println(login("tom", "123456"));
-        System.out.println(login("tom", "222222"));
-        System.out.println(updatePassword("tom", "123456", "654321"));
+        register("zll", "123456");
+        register("paul", "666666");
+        System.out.println(login("zll", "123456"));
+        System.out.println(login("zll", "222222"));
+        System.out.println(updatePassword("zll", "123456", "654321"));
 
-        System.out.println(login("tom", "123456"));
-        System.out.println(login("tom", "654321"));
+        System.out.println(login("zll", "123456"));
+        System.out.println(login("zll", "654321"));
     }
 
 
