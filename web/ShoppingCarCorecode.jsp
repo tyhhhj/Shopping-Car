@@ -44,11 +44,11 @@
 				buylist.add(goodInfo);
 				session.setAttribute("buylist", buylist);
 			}
-			response.sendRedirect("");
+			response.sendRedirect("ShoppingCarmain.jsp");
 		}
 		if (action.equals("clear")){
      	buylist.clear();
-       	response.sendRedirect("");
+       	response.sendRedirect("ShoppingCarmain.jsp");
      }
      if(action.equals("delete")) {
 		 int i = Integer.parseInt(request.getParameter("id"));
@@ -62,7 +62,7 @@
 		 } else {
 			 buylist.remove(i);
 		 }
-		 response.sendRedirect("");
+		 response.sendRedirect("ShoppingCarmain.jsp");
 	 }
 	%>
 </body>

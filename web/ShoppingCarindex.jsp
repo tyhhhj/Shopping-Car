@@ -31,16 +31,16 @@
 		else
 	%>
 	<tr height="100" align="center">
-	<form action="ShoppingCar_main.jsp?action=buy&id=<%=0%>" method="post" name="form1">
+	<form action="ShoppingCarCorecode.jsp?action=buy&id=<%=0%>" method="post" name="form1">
 		<td><%=goodListnames[0]%></td>
         <td><img height="50" width="60" src="1.jpg"/></td>
 		<td><%=goodListprices[0]%></td>
 		<td><input width="10" size="5" type="text" name="aa">
-		<td><input type="submit" name="buy" value="购买"></td>
+		<td><input type="submit" name="buy" value="购买" id=<%=0%>></td>
 	</form>
 	</tr>
 	<tr height="100" align="center">
-	<form action="ShoppingCar_main.jsp?action=buy&id=<%=1%>" method="post" name="form1">
+	<form action="ShoppingCarCorecode.jsp?action=buy&id=<%=1%>" method="post" name="form1">
 		<td><%=goodListnames[1]%></td>
 		<td><img height="50" width="60" src="2.jpg"/></td>
 		<td><%=goodListprices[1]%></td>
@@ -49,7 +49,7 @@
 	</form>
 	</tr>
 	<tr height="100" align="center">
-	<form action="ShoppingCar_main.jsp?action=buy&id=<%=2%>" method="post" name="form1">
+	<form action="ShoppingCarCorecode.jsp?action=buy&id=<%=2%>" method="post" name="form1">
 		<td><%=goodListnames[2]%></td>
 		<td><img height="50" width="60" src="3.jpg"/></td>
 		<td><%=goodListprices[2]%></td>
@@ -58,7 +58,7 @@
 	</form>
 	</tr>
 	<tr height="100" align="center">
-	<form action="ShoppingCar_main.jsp?action=buy&id=<%=3%>" method="post" name="form1">
+	<form action="ShoppingCarCorecode.jsp?action=buy&id=<%=3%>" method="post" name="form1">
 		<td><%=goodListnames[3]%></td>
 		<td><img height="50" width="60" src="4.jpg"/></td>
 		<td><%=goodListprices[3]%></td>
@@ -67,8 +67,7 @@
 	</form>
 	</tr>
 		<tr height="50">
-			<td align="center" colspan="5"><a href="ShoppingCar_main.jsp">查看购物车</a></td>
-			<%--//to do--%>
+			<td align="center" colspan="5"><a href="ShoppingCarmain.jsp">查看购物车</a></td>
 		</tr>
 	</table>
 	</body>
