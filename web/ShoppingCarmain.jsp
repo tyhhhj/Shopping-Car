@@ -43,6 +43,7 @@
 	<tr height="50" align="center"><td colspan="5">应付金额：<%=total%></td></tr>
 	<tr height="50" align="center">
 		<td colspan="2"><a href="ShoppingCarindex.jsp">继续购物</a></td>
-		<td colspan="3"><a href="ShoppingCarCorecode.jsp?action=clear">清空购物车</a></td>
+		<td colspan="1"><a href="ShoppingCarPay.html">去支付</a></td>
+		<td colspan="2"><a href="ShoppingCarCorecode.jsp?action=clear">清空购物车</a></td>
 	</tr>				
 </table>
