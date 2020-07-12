@@ -67,7 +67,8 @@
 	</form>
 	</tr>
 		<tr height="50">
-			<td align="center" colspan="5"><a href="ShoppingCarmain.jsp">查看购物车</a></td>
+			<td align="center" colspan="2"><a href="login.html">退出登录 </a></td>
+			<td align="center" colspan="3"><a href="ShoppingCarmain.jsp">查看购物车</a></td>
 		</tr>
 	</table>
 	</body>
